@@ -1,0 +1,91 @@
+body {
+  box-sizing:  border-box;
+}
+
+.main {
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.header {
+  height: 12rem;
+  width: 100%;
+  background-color: gray;
+}
+
+.left_header{
+  width: 25%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+
+.title {
+  position: static;
+  height: 4rem;
+  background-color: red;
+  width: 13rem;
+}
+
+.right_header{
+  padding-left: 25%;
+  height: 100%;
+  background-color: green;
+}
+
+.serch_box {
+  width: 100%;
+  height: 7rem;
+  background-color: pink;
+}
+
+.serch_left {
+
+}
+
+.serch_right {
+
+}
+
+.select_box{
+
+}
+
+.submit_btn {
+
+}
+
+.map {
+
+} 
+
+.left_map {
+
+} 
+
+.right_map {
+
+} 
+
+.ranking {
+
+} 
+
+.left_ranking {
+
+} 
+
+.right_ranking {
+
+} 
+
+.box {
+
+}
+
+.left_data {
+
+} 
+
+.right_data {
+
+} 
