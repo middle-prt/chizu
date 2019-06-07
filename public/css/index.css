@@ -9,48 +9,100 @@ body {
 .header {
   height: 12rem;
   width: 100%;
-  background-color: gray;
+  border: solid 0.25rem black;
 }
 
 .left_header{
   width: 25%;
   height: 100%;
-  background-color: blue;
   float: left;
 }
 
-.title {
+.title_box {
   position: static;
   height: 4rem;
-  background-color: red;
   width: 13rem;
+}
+
+.title{
+  font-size: 2.5rem;
+  padding-left: 0.5rem;
+  text-align: left;
 }
 
 .right_header{
   padding-left: 25%;
   height: 100%;
-  background-color: green;
 }
 
 .serch_box {
   width: 100%;
   height: 7rem;
   background-color: pink;
+  float: left;
 }
 
 .serch_left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
 
+.serch_left_box_left{
+  width: 43%;
+  margin-left: 2%;
+  margin-right: 5%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.serch_left_box_right{
+  width: 43%;
+  margin-left: 50%;
+  margin-right: 7%;
+  height: 100%;
+  position: relative;
 }
 
 .serch_right {
-
+  padding-left: 50%;
+  width: 50%;
+  height: 100%;
 }
 
-.select_box{
+.serch_right_box_left{
+  width: 43%;
+  margin-left: 7%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
 
+.serch_right_box_right{
+  width: 43%;
+  margin-left: 5%;
+  margin-right: 2%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.input_box {
+  position: absolute;
+  background-color: red;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  text-align: center;
 }
 
 .submit_btn {
+  
+}
+
+.submit_text {
 
 }
 
