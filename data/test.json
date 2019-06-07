@@ -1,0 +1,23 @@
+{
+  {
+    "company_id":3,
+    "main_category_name":"スポーツ",
+    "sub_category_name":"サッカー",
+    "created_at":"2019-01-01 00:50",
+    "address":"東京都港区"
+  },
+  {
+    "company_id":4,
+    "main_category_name":"ゲーム",
+    "sub_category_name":"PS4",
+    "created_at":"2019-01-05 23:40",
+    "address":"山梨県南アルプス市"
+  },
+  {
+    "company_id":18,
+    "main_category_name":"グルメ",
+    "sub_category_name":"スイーツ",
+    "created_at":"2019-03-14 02:23",
+    "address":"長野県上田市"
+  }
+}

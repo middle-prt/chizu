@@ -1,0 +1,40 @@
+<form method="post">
+<select name="main_cate">
+<option value="パソコン">パソコン</option>
+<option value="企業向けシステム・通信・機器">企業向けシステム・通信・機器</option>
+<option value="流通">流通</option>
+<option value="エンタテイメント">エンタテイメント</option>
+<option value="スポーツ・アウトドア">スポーツ・アウトドア</option>
+<option value="出版・アート・カルチャー">出版・アート・カルチャー</option>
+<option value="ゲーム・おもちゃ">ゲーム・おもちゃ</option>
+<option value="デジタル製品・家電">デジタル製品・家電</option>
+<option value="インテリア・雑貨">インテリア・雑貨</option>
+<option value="自動車・バイク">自動車・バイク</option>
+<option value="アパレル・ファッション">アパレル・ファッション</option>
+<option value="食品・飲料">食品・飲料</option>
+<option value="美容・健康">美容・健康</option>
+<option value="ビジネス・コンサルティング">ビジネス・コンサルティング</option>
+<option value="金融">金融</option>
+<option value="広告・マーケティング">広告・マーケティング</option>
+<option value="教育・資格・人材">教育・資格・人材</option>
+<option value="ホテル・レジャー">ホテル・レジャー</option>
+<option value="住宅・建築・建設">住宅・建築・建設</option>
+<option value="素材・化学・エネルギー">素材・化学・エネルギー</option>
+<option value="自然・環境">自然・環境</option>
+<option value="その他">その他</option>
+<option value="外食・中食">外食・中食</option>
+<option value="医療・医薬・福祉">医療・医薬・福祉</option>
+<option value="暮らし">暮らし</option>
+<option value="ネットサービス・アプリ">ネットサービス・アプリ</option>
+<option value="交通・運輸・輸送">交通・運輸・輸送</option>
+</select>
+<input type="date" name="from_date" max="9999-12-31">
+<input type="date" name="to_date" max="9999-12-31">
+<input type="submit" value="submit">
+</form>
+<br><br>
+<div>
+main_category : <%= @main_cate %><br>
+from : <%= @from_date %><br>
+to : <%= @to_date %><br>
+</div>
