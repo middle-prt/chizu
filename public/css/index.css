@@ -4,12 +4,14 @@ body {
 
 .main {
   padding: 1rem 3rem 1rem 3rem;
+
 }
 
 .header {
   height: 12rem;
   width: 100%;
   border: solid 0.25rem black;
+  margin-bottom: 1rem;
 }
 
 .left_header{
@@ -37,85 +39,115 @@ body {
 
 .serch_box {
   width: 100%;
-  height: 7rem;
+  height: 9rem;
   background-color: pink;
-  float: left;
+  display: flex;
 }
 
 .serch_left {
-  width: 50%;
+  width: 40%;
   height: 100%;
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.serch_left_box_left{
-  width: 43%;
-  margin-left: 2%;
-  margin-right: 5%;
-  height: 100%;
-  float: left;
-  position: relative;
+.serch_left_box{
+  padding: 1rem;
 }
 
-.serch_left_box_right{
-  width: 43%;
-  margin-left: 50%;
-  margin-right: 7%;
-  height: 100%;
-  position: relative;
+form{
+  width: 15.5rem;
+  height: 3rem;
+}
+
+select {
+  width: 15.5rem;
+  height: 3rem;
+  vertical-align: middle;
+  font-size: 1rem;
+  background-color: red;
 }
 
 .serch_right {
-  padding-left: 50%;
-  width: 50%;
+  width: 60%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .serch_right_box_left{
-  width: 43%;
-  margin-left: 7%;
-  height: 100%;
-  float: left;
-  position: relative;
+  width: 50%;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .serch_right_box_right{
-  width: 43%;
-  margin-left: 5%;
-  margin-right: 2%;
-  height: 100%;
-  float: left;
-  position: relative;
+  width: 50%;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .input_box {
-  position: absolute;
-  background-color: red;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
   text-align: center;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 2rem;
 }
 
+.input_box input {
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+
 .submit_btn {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .submit_text {
+  text-align: center;
+  background-color: #0000FF;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
 
+.submit_text input{
+  color: #fff;
+  font-size: 1rem;
 }
 
 .map {
-
+  width: 100%;
+  height: 32rem;
+  background-color: green;
+  border: solid 0.25rem black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
 
 .left_map {
-
+  width: 45%;
+  height: 100%;
+  background-color: blue;
+  margin-right: 10%;
 } 
 
 .right_map {
-
+  width: 45%;
+  height: 100%;
+  background-color: red;
 } 
 
 .ranking {
