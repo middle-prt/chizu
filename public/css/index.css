@@ -12,12 +12,14 @@ body {
   width: 100%;
   border: solid 0.25rem black;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left_header{
-  width: 25%;
+  width: 30%;
   height: 100%;
-  float: left;
 }
 
 .title_box {
@@ -33,7 +35,7 @@ body {
 }
 
 .right_header{
-  padding-left: 25%;
+  width: 70%;
   height: 100%;
 }
 
@@ -54,6 +56,7 @@ body {
 
 .serch_left_box{
   margin-top: -2rem;
+  text-align: center;
 }
 
 form{
@@ -67,6 +70,7 @@ select {
   vertical-align: middle;
   font-size: 1rem;
   border: solid 0.1rem #0000FF;
+  border-radius: 1rem;
 }
 
 .serch_right {
@@ -78,7 +82,8 @@ select {
 }
 
 .serch_right_box_left{
-  width: 50%;
+  margin-left: 20%;
+  width: 30%;
   margin-top: -2rem;
   box-sizing: border-box;
 }
@@ -93,15 +98,16 @@ select {
   text-align: center;
   box-sizing: border-box;
   vertical-align: middle;
-  font-size: 2rem;
 }
 
 .input_box input {
   text-align: center;
   box-sizing: border-box;
   vertical-align: middle;
+  height: 3rem;
   font-size: 1.5rem;
   border: solid 0.1rem #0000FF;
+  border-radius: 1rem;
 }
 
 
@@ -114,7 +120,7 @@ select {
 .submit_text {
   text-align: center;
   background-color: #0000FF;
-  width: 6rem;
+  width: 8rem;
   height: 3rem;
   border-radius: 2rem;
   display: flex;
@@ -125,7 +131,7 @@ select {
 
 .submit_text input{
   background-color: #0000FF;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-style: none;
   color: #fff;
 }
@@ -133,7 +139,6 @@ select {
 .map {
   width: 100%;
   height: 32rem;
-  background-color: green;
   border: solid 0.25rem black;
   display: flex;
   justify-content: center;
@@ -143,14 +148,12 @@ select {
 .left_map {
   width: 45%;
   height: 100%;
-  background-color: blue;
   margin-right: 10%;
 } 
 
 .right_map {
   width: 45%;
   height: 100%;
-  background-color: red;
 } 
 
 .ranking {
