@@ -1,5 +1,15 @@
-require 'sinatra'
-require 'sinatra/reloader'
+require "sinatra" 
+require "sinatra/reloader"
+require "json"
+
+get '/test' do
+  File.open("/data/test.json") do |file|
+    hash = JSON.load(file)
+  end
+  hash.each do |h|
+    puts "#{h['company_id']}"
+  end
+end
 
 get '/' do
   haml:index
