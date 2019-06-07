@@ -16,6 +16,7 @@
           .serch_box
             .serch_left
               .serch_left_box
+                %p カテゴリ選択
                 %form{:method => "post"}
                   %select{:name => "main_cate"}
                     %option{:value => "パソコン"} パソコン
@@ -48,11 +49,11 @@
             .serch_right
               .serch_right_box_left
                 .input_box
-                  from
+                  %p from
                   %input{:min => "2018-01-01", :max => "2018-12-31", :name => "from_date", :type => "date"}/ 
               .serch_right_box_right
                 .input_box
-                  to
+                  %p to
                   %input{:min => "2018-01-01", :max => "2018-12-31", :name => "to_date", :type => "date"}/
           .submit_btn
             .submit_text
